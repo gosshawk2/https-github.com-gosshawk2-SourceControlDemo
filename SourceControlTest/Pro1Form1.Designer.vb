@@ -25,7 +25,7 @@ Partial Class frmPro1Form1
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnProject1 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtTitle = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -49,18 +49,20 @@ Partial Class frmPro1Form1
         '
         'Panel2
         '
-        Me.Panel2.Controls.Add(Me.TextBox1)
+        Me.Panel2.Controls.Add(Me.txtTitle)
         Me.Panel2.Location = New System.Drawing.Point(12, 2)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(789, 51)
         Me.Panel2.TabIndex = 1
         '
-        'TextBox1
+        'txtTitle
         '
-        Me.TextBox1.Location = New System.Drawing.Point(3, 10)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(783, 20)
-        Me.TextBox1.TabIndex = 0
+        Me.txtTitle.Location = New System.Drawing.Point(3, 10)
+        Me.txtTitle.Name = "txtTitle"
+        Me.txtTitle.Size = New System.Drawing.Size(783, 20)
+        Me.txtTitle.TabIndex = 0
+        Me.txtTitle.Text = "Source Code Test"
+        Me.txtTitle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'frmPro1Form1
         '
@@ -81,5 +83,5 @@ Partial Class frmPro1Form1
     Friend WithEvents Panel1 As Panel
     Friend WithEvents btnProject1 As Button
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtTitle As TextBox
 End Class
